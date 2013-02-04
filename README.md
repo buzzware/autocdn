@@ -1,3 +1,5 @@
+THIS IS ONLY AN IDEA - NO IMPLEMENTATION YET
+
 autocdn
 =======
 
