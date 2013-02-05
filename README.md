@@ -40,12 +40,19 @@ autocdn can also render and manage multiple versions of the original source imag
 ### Resizing and cropping
 
 background__100x120s.jpg	stretch image to 100 wide and 120 high
+
 background__wx120s.jpg	stretch image to original width and 120 high
+
 background__100x120pb.jpg	fit image proportionally to 100 wide and 120 high, and pad with black
+
 background__100x120pw.jpg	fit image proportionally to 100 wide and 120 high, and pad with white
+
 background__100xhpb.jpg	fit image proportionally to 100 wide and original height, and pad with black
+
 background__100x120f.jpg fill 100 wide and 120 high with image proportionally, cropping excess pixels
+
 background__100x120ctl.jpg crop image to 100 wide 120 high from top left corner, without scaling
+
 background__100x120cc.jpg crop image to 100 wide 120 high from centre, without scaling
 
 ### Double extension
@@ -53,9 +60,4 @@ background__100x120cc.jpg crop image to 100 wide 120 high from centre, without s
 Allows format conversion
 
 background__.png.jpg	-> returns a jpg version of the source png file (obviously won't support png alpha channel or transparency)
-
-
-
-
-background__200xh_
 
